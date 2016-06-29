@@ -7,7 +7,8 @@ module.exports = (props, onclick) => {
   const style = {
     border: 0,
     backgroundColor: 'transparent',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    color: 'inherit'
   }
 
   return yo`
