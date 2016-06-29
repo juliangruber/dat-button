@@ -10,13 +10,12 @@ WIP
 ```js
 const button = require('dat-button')
 
-const onclick = () => console.log('click')
-
 const el = button({
   text: 'BUTTON',
   style: {
     color: 'black'
-  }
+  },
+  click: () => console.log('click')
 }, onclick)
 
 document.body.appendChild(el)
@@ -24,5 +23,5 @@ document.body.appendChild(el)
 
 ## API
 
-### button({ text, style }, onclick)
+### button({ text, style, click })
 

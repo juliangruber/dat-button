@@ -6,5 +6,6 @@ document.body.appendChild(button({
   text: 'Button',
   style: {
     color: 'black'
-  }
-}, () => console.log('click')))
+  },
+  click: () => console.log('click')
+}))
