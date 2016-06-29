@@ -7,7 +7,8 @@ module.exports = (props, onclick) => {
   const style = {
     border: 0,
     backgroundColor: 'green',
-    color: 'white'
+    color: 'white',
+    textTransform: 'uppercase'
   }
 
   return yo`

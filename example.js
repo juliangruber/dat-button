@@ -3,7 +3,7 @@
 const button = require('.')
 
 document.body.appendChild(button({
-  text: 'BUTTON',
+  text: 'Button',
   style: {
     color: 'black'
   }
