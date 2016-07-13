@@ -15,7 +15,8 @@ const el = button({
   style: {
     color: 'black'
   },
-  click: () => console.log('click')
+  click: () => console.log('click'),
+  klass: 'my-class'
 }, onclick)
 
 document.body.appendChild(el)

@@ -10,10 +10,10 @@ module.exports = (props, click) => {
     textTransform: 'uppercase',
     color: 'inherit'
   }
-  if (typeof click == 'function') props.click = click
+  if (typeof click === 'function') props.click = click
 
   return yo`
-    <button onclick=${props.click} style=${css(style, props.style)}>
+    <button onclick=${props.click} style=${css(style, props.style)} class=${props.klass || ''}>
       ${props.text}
     </button>
   `
