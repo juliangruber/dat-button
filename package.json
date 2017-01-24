@@ -6,7 +6,7 @@
   "repository": "juliangruber/dat-button",
   "dependencies": {
     "yo-css": "^1.0.1",
-    "yo-yo": "^1.2.2"
+    "yo-yo": "^1.4.0"
   },
   "devDependencies": {
     "browserify": "^13.0.1",
